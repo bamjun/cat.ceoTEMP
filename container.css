@@ -1,0 +1,9 @@
+#container {
+  flex-grow: 1; /* Added to make the container fill available space */
+  padding: 20px; /* Optional for some spacing */
+}
+
+#instruction {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
