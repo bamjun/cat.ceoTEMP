@@ -10,13 +10,16 @@
 body {
   display: flex;
   background: #333;
-  justify-content: flex-end;
-  align-items: flex-end;
   flex-direction: column; /* Changed to stack elements vertically */
   min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+
 }
 
 .footer {
+  margin: 0;
+  padding: 0;
   position: relative;
   width: 100%;
   background: #3586ff;
@@ -42,6 +45,7 @@ body {
 .menu__item {
   list-style: none;
 }
+
 
 .social-icon__link {
   font-size: 2rem;
